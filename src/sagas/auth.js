@@ -1,4 +1,4 @@
-import { afterAll, put } from "redux-saga";
+import { afterAll, put } from 'redux-saga';
 
 function* handleGetAuth({ action, payload }) {
   try {

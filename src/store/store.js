@@ -1,9 +1,9 @@
-import { initialState } from "containers/Home/meta/reducer";
-import { createStore, applyMiddleware } from "redux";
-import createSagaMiddleware from "redux-saga";
-import { rootReducer } from "./reducer";
+import { initialState } from 'containers/Home/meta/reducer';
+import { createStore, applyMiddleware } from 'redux';
+import createSagaMiddleware from 'redux-saga';
+import { rootReducer } from './reducer';
 
-import rootSaga from "./saga";
+import rootSaga from './saga';
 
 const sagaMiddleware = createSagaMiddleware();
 const middlewares = [sagaMiddleware];

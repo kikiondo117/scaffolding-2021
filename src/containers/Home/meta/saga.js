@@ -1,8 +1,8 @@
-import { all, takeLatest, put } from "redux-saga/effects";
-import * as constants from "./constants";
-import * as actions from "./actions";
+import { all, takeLatest, put } from 'redux-saga/effects';
+import * as constants from './constants';
+import * as actions from './actions';
 
-import {} from "redux-saga";
+import {} from 'redux-saga';
 
 function* handleGetAuth(action) {
   try {
