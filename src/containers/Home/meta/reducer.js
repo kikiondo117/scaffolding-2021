@@ -5,17 +5,17 @@ export const initialState = {
   nani: '',
 };
 
-export const reducerName = 'Home';
+export const homeReducerName = 'Home';
 
-const HomeReducer = (state = initialState, action) =>
+const homeReducer = (state = initialState, action) =>
   produce(state, (draft) => {
     switch (action.type) {
       case constans.TEST:
         draft.nani = 'nani';
-        return null;
+        break;
       default:
         break;
     }
   });
 
-export { HomeReducer };
+export { homeReducer };
